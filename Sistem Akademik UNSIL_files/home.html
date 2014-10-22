@@ -201,47 +201,46 @@ document.oncontextmenu=new Function("return false")
 		      </button>
 		    </div>
 			
-<!-- tampilan utama -->
-				</div>
-			</div>
-			<hr>
-			
-			<div id="sidebarright" class="sideright floatright">
-				<div class="block">
-					<h3>F.A.Q</h3>
-					<ul>
-						<li><a href="http://info.unsil.ac.id/?p=27" target="_blank"><sup>Kenapa Saya Tidak Bisa Login?</sup></a></li>
-						<li><a href="http://info.unsil.ac.id/?p=17" target="_blank"><sup>Cara Validasi KRS Online</sup></a></li>	
-						<li><a href="http://info.unsil.ac.id/?p=10" target="_blank"><sup>Kenapa Nilai Saya Gak Muncul?</sup></a></li>
-						<li><a href="http://info.unsil.ac.id/?p=1" target="_blank"><sup>Cara Perhitungan IPK?</sup></a></li>
-						<li><a href="http://info.unsil.ac.id/?p=53" target="_blank"><sup>Ada Nilai yang Muncul Double?</sup></a></li>
-						<li><a href="http://info.unsil.ac.id/?p=86" target="_blank"><sup>Cara Cek Data dan Upload Foto Wisudawan</sup></a></li>
-					</ul>
-					
-				</div>
-			</div>
-			
-			<div class="clearboth"></div>
-		</div>
-		
-		<hr>
+<!-- Collect the nav links, forms, and other content for toggling -->
+		    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+			<div id="smoothmenu1" class="ddsmoothmenu">
+		      <ul class="nav navbar-nav">
+		        <li class="first"><a class="selected" href="Sistem Akademik UNSIL.html">Home</a></li>                                          
+                                          <li style="z-index: 100;"><a href="http://pmb.unsil.ac.id/" style="padding-right: 24px;">PMB Online</a> 
+                                              <!-- Sub Menu level 1 -->    
+                                                  <ul style="display: none; top: 31px; visibility: visible;">
+                                                     <li><a href="http://simak.unsil.ac.id/#">Panduan Pendaftaran</a></li>
+                                                     <li style="z-index: 99;"><a href="http://simak.unsil.ac.id/#" class="dropdown">Program</a>
+                                                          <!-- Sub Menu Level 2 -->
+                                                              <ul style="display: none; top: 0px; visibility: visible;">
+                                                                  <li><a href="http://pmb.unsil.ac.id/daftar.php">Diploma (D3) / Sarjana (S1)</a></li>   		
+                                                                  <li><a href="http://simak.unsil.ac.id/#">Pascasarjana (S2)</a></li>                                                                    	
+                                                            </ul>		
+                                                  	  </li>
+                                                  <li><a href="http://pmb.unsil.ac.id/diagram.php">Tata Alir Registrasi</a></li>                                                  
+                                              </ul>			
+                                          </li>
+										  <li style="z-index: 98;"><a href="http://simak.unsil.ac.id/#" style="padding-right: 24px;">Informasi</a>                              
+                                               <ul style="display: none; top: 31px; visibility: visible;">
+                                                <li><a href="http://luluspmb.unsil.ac.id/">Pengumuman Hasil PMB</a></li>	
+												<!--<li><a href="http://simak.unsil.ac.id/pmbunsil" >Laporan PMB</a></li>-->
+                                               </ul>		
+                                          </li>
+                                          <!--<li><a href='http://simak.unsil.ac.id/dikti' target="_blank" >Data Center</a></li>-->
+										  <li><a href="http://simak.unsil.ac.id/monitoring" target="_blank">Monitoring</a></li>
+										  <li><a href="http://simak.unsil.ac.id/Doc/PedomanAkademikUNSIL.pdf" target="_blank">Pedoman Akademik</a></li>
+										  <li><a href="http://info.unsil.ac.id/" target="_blank">F.A.Q</a></li>
+										  <li><a href="http://simak.unsil.ac.id/contactus.php">Hubungi Kami</a></li>
+		      </ul>
+		    </div><!-- /.navbar-collapse -->
+		    <!-- start soc_icons -->
+		</nav>
 
-		<div id="sidebarleft" class="sideleft floatleft">
-				<div class="block">	
+	</div>
+</div>
 
-				<!-- menu login	-->
-<div style="opacity: 0.7; position: absolute; top: 0px; left: 0px;  display: none;" class="tooltip"></div>
-<h3>Login</h3>
 
-<form name="frmLogin" action="http://simak.unsil.ac.id/us-unsil/index.php" method="POST" id="loginform" class="expose"><input type="hidden" name="lid" value="120">
-	<input type="hidden" name="mnux" value="loginprc">
-	<input type="hidden" name="gos" value="cek">
-	<input type="hidden" name="nme" value="Mahasiswa">
-	<input type="hidden" name="institusi" value="UNSIL">
-	<input type="hidden" name="KodeID" value="UNSIL">
-	<input type="hidden" name="BypassMenu" value="1"><table border="0" width="75%">
-	<tbody><tr>
-		<td>N.P.M
+
 			<input tabindex="1" name="Login" type="text" autocomplete="off" title="Isikan NPM Mahasiswa"> 
 		</td>
 	</tr>
