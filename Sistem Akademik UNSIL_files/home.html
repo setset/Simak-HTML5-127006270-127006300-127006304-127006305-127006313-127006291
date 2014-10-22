@@ -13,6 +13,66 @@
 
 <link href="screen.css" rel="stylesheet" type="text/css" media="screen">
 <link rel="shortcut icon" href="http://simak.unsil.ac.id/images/icon.png" type="image/x-icon">
+<!-- start plugins -->
+<script type="text/javascript" src="js/jquery.min.js"></script>
+<script type="text/javascript" src="js/bootstrap.js"></script>
+<script type="text/javascript" src="js/bootstrap.min.js"></script>
+<!-- start slider -->
+<link href="css/slider.css" rel="stylesheet" type="text/css" media="all" />
+<script type="text/javascript" src="js/modernizr.custom.28468.js"></script>
+<script type="text/javascript" src="js/jquery.cslider.js"></script>
+	<script type="text/javascript">
+			$(function() {
+
+				$('#da-slider').cslider({
+					autoplay : true,
+					bgincrement : 450
+				});
+
+			});
+		</script>
+<!-- Owl Carousel Assets -->
+<link href="css/owl.carousel.css" rel="stylesheet">
+<script src="js/owl.carousel.js"></script>
+		<script>
+			$(document).ready(function() {
+
+				$("#owl-demo").owlCarousel({
+					items : 4,
+					lazyLoad : true,
+					autoPlay : true,
+					navigation : true,
+					navigationText : ["", ""],
+					rewindNav : false,
+					scrollPerPage : false,
+					pagination : false,
+					paginationNumbers : false,
+				});
+
+			});
+		</script>
+		<!-- //Owl Carousel Assets -->
+<!----font-Awesome----->
+   	<link rel="stylesheet" href="fonts/css/font-awesome.min.css">
+<!----font-Awesome----->
+</head>
+<body>
+<div class="header_bg">
+<div class="container">
+	<div class="row header">
+		<div class="logo navbar-left">
+			<h1><a href="index.html">Learner </a></h1>
+		</div>
+		<div class="h_search navbar-right">
+			<form>
+				<input type="text" class="text" value="Enter text here" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Enter text here';}">
+				<input type="submit" value="search">
+			</form>
+		</div>
+		<div class="clearfix"></div>
+	</div>
+</div>
+</div>
 <!-- MENU -->
 	<link rel="stylesheet" type="text/css" href="ddsmoothmenu.css">
 	<script type="text/javascript" async="" src="ga.js"></script><script src="jquery.min.menu.js" type="text/javascript"></script><style type="text/css"></style>
