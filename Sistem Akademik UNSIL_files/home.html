@@ -158,44 +158,24 @@
 </head><body id="home"><div class="ddshadow toplevelshadow" style="left: 419px; top: 207px;"></div><div class="ddshadow toplevelshadow" style="left: 306px; top: 207px;"><div class="ddshadow" style="left: 200px; top: 31px;"></div></div>
 <script language="JavaScript">
 
-<div id="wrapmain" class="wrap">
-<!-- MENU -->
+<!--
 
-<!-- Navigation -->
-                              <div class="navigation">
-                                  <div id="smoothmenu1" class="ddsmoothmenu">
-                                  	  <ul>
-                                  	      <li class="first"><a class="selected" href="Sistem Akademik UNSIL.html">Home</a></li>                                          
-                                          <li style="z-index: 100;"><a href="http://pmb.unsil.ac.id/" style="padding-right: 24px;">PMB Online</a> 
-                                              <!-- Sub Menu level 1 -->    
-                                                  <ul style="display: none; top: 31px; visibility: visible;">
-                                                     <li><a href="http://simak.unsil.ac.id/#">Panduan Pendaftaran</a></li>
-                                                     <li style="z-index: 99;"><a href="http://simak.unsil.ac.id/#" class="dropdown">Program</a>
-                                                          <!-- Sub Menu Level 2 -->
-                                                              <ul style="display: none; top: 0px; visibility: visible;">
-                                                                  <li><a href="http://pmb.unsil.ac.id/daftar.php">Diploma (D3) / Sarjana (S1)</a></li>   		
-                                                                  <li><a href="http://simak.unsil.ac.id/#">Pascasarjana (S2)</a></li>                                                                    	
-                                                            </ul>		
-                                                  	  </li>
-                                                  <li><a href="http://pmb.unsil.ac.id/diagram.php">Tata Alir Registrasi</a></li>                                                  
-                                              </ul>			
-                                          </li>
-										  <li style="z-index: 98;"><a href="http://simak.unsil.ac.id/#" style="padding-right: 24px;">Informasi</a>                              
-                                               <ul style="display: none; top: 31px; visibility: visible;">
-                                                <li><a href="http://luluspmb.unsil.ac.id/">Pengumuman Hasil PMB</a></li>	
-												<!--<li><a href="http://simak.unsil.ac.id/pmbunsil" >Laporan PMB</a></li>-->
-                                               </ul>		
-                                          </li>
-                                          <!--<li><a href='http://simak.unsil.ac.id/dikti' target="_blank" >Data Center</a></li>-->
-										  <li><a href="http://simak.unsil.ac.id/monitoring" target="_blank">Monitoring</a></li>
-										  <li><a href="http://simak.unsil.ac.id/Doc/PedomanAkademikUNSIL.pdf" target="_blank">Pedoman Akademik</a></li>
-										  <li><a href="http://info.unsil.ac.id/" target="_blank">F.A.Q</a></li>
-										  <li><a href="http://simak.unsil.ac.id/contactus.php">Hubungi Kami</a></li>
-                                      </ul>				
-                                  </div>
-                           <!-- navigation ends -->       		                            
-             	     <div class="clear"></div>	
-                 </div>   
+//Disable right click script 
+
+var message="";
+///////////////////////////////////
+function clickIE() {if (document.all) {(message);return false;}}
+function clickNS(e) {if 
+(document.layers||(document.getElementById&&!document.all)) {
+if (e.which==2||e.which==3) {(message);return false;}}}
+if (document.layers) 
+{document.captureEvents(Event.MOUSEDOWN);document.onmousedown=clickNS;}
+else{document.onmouseup=clickNS;document.oncontextmenu=clickIE;}
+
+document.oncontextmenu=new Function("return false")
+// --> 
+</script>
+
 <!-- MENU-->
 	<div class="spacer">
 	<!-- NEWS TICKER -->
