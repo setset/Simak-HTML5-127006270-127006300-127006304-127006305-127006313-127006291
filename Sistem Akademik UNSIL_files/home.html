@@ -65,22 +65,41 @@
 		</div>
 		<div class="h_search navbar-right">
 			<form>
-<!-- MENU -->
-	<link rel="stylesheet" type="text/css" href="ddsmoothmenu.css">
-	<script type="text/javascript" async="" src="ga.js"></script><script src="jquery.min.menu.js" type="text/javascript"></script><style type="text/css"></style>
-	<script src="ddsmoothmenu.js" type="text/javascript"></script>
-	<script type="text/javascript" src="menu.js"></script>
-<!-- MENU -->
-    <script type="text/javascript" src="jquery.tools.min.js"></script>
-	<script src="newsticker.js" type="text/javascript"></script>
-    <script type="text/javascript"> 
-      $(document).ready(function(){
-        // pilih semua input dan terapkan tooltip pada semua input 
-        $("#loginform :input").tooltip({
-        
-        // letakkan posisi tooltip di bagian/sebelah kanan
-	      position: "center right",
+										<!-- menu login	-->
+<div style="opacity: 0.7; position: absolute; top: 0px; left: 0px;  display: none;" class="tooltip"></div>
+<h3>Login</h3>
 
+<form name="frmLogin" action="http://simak.unsil.ac.id/us-unsil/index.php" method="POST" id="loginform" class="expose"><input type="hidden" name="lid" value="120">
+	<input type="hidden" name="mnux" value="loginprc">
+	<input type="hidden" name="gos" value="cek">
+	<input type="hidden" name="nme" value="Mahasiswa">
+	<input type="hidden" name="institusi" value="UNSIL">
+	<input type="hidden" name="KodeID" value="UNSIL">
+	<input type="hidden" name="BypassMenu" value="1"><table border="0" width="75%">
+	<tbody><tr>
+		<td>N.P.M
+			<input tabindex="1" name="Login" type="text" autocomplete="off" title="Isikan NPM Mahasiswa"> 
+		</td>
+		<td>Password
+			<input tabindex="2" name="Password" type="password" autocomplete="off" title="Isikan Password Lama Mahasiswa"> 
+		</td>
+	</tr>
+
+	<tr><td>
+	<font size="1">Contoh: 21021992 <br>
+				Angkatan 2011 : 1999-12-30</font>
+				<td>
+				Password Default: Tanggal Lahir<br>
+				</td>
+	</td></tr>
+	
+	</tbody></table>
+
+	<br>
+	<input name="submit" value="Login" type="submit" title="Klik Tombol Login Untuk Masuk Sistem">
+	
+</form>				
+		<!-- menu login	-->
 	      // mengatur letak posisi berdasarkan koordinat
         offset: [0, 0],
 
