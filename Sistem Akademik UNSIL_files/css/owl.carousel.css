@@ -4,14 +4,35 @@
 */
     #owl-demo .item{
        margin: 0.5em;
-		transition: 0.5s all;
-		-webkit-transition: 0.5s all;
-		-moz-transition: 0.5s all;
-		-o-transition: 0.5s all;
+		transition: 1s all;
+		-webkit-transition: 1s all;
+		-moz-transition: 1s all;
+		-o-transition: 1s all;
 		padding: 1em;
-		background: #fff;
 		cursor:pointer;
+			 background: rgba(190,220,250,0.25);
+  border-top: 1px solid rgba(250,253,255,0.2);
+  box-shadow: 0px 0px 5px rgba(0,0,0,0.2);
+  border-radius: 4px;
+	filter: blur(5px);
+  -webkit-filter: blur(5px);
+  -moz-filter: blur(5px);
+  -o-filter: blur(5px);
+  -ms-filter: blur(5px);
     }
+	
+	/*(jang nga blurkeun)
+	 background: rgba(190,220,250,0.25);
+  border-top: 1px solid rgba(250,253,255,0.2);
+  box-shadow: 0px 0px 5px rgba(0,0,0,0.2);
+  border-radius: 4px;
+	filter: blur(5px);
+  -webkit-filter: blur(5px);
+  -moz-filter: blur(5px);
+  -o-filter: blur(5px);
+  -ms-filter: blur(5px);
+  */
+  
     #owl-demo .item:hover a{
     		color:#EA6060;
     }
@@ -24,6 +45,7 @@
 	-webkit-transition: 0.5s all;
 	-moz-transition: 0.5s all;
 	-o-transition: 0.5s all;
+	
 }
 .item img:hover,.item a:hover,.item p:hover{
 	opacity:1;
