@@ -224,3 +224,35 @@ body {
 	position: relative;
 	z-index: 1;
 }
+
+/* Button 1 */
+.fa-btn {
+	font-size: 14px;
+	background: none;
+	cursor: pointer;
+	padding: 12px 40px;
+	display: inline-block;
+	margin: 10px 0px;
+	text-transform: uppercase;
+	outline: none;
+	position: relative;
+	-webkit-transition: all 0.3s;
+	-moz-transition: all 0.3s;
+	transition: all 0.3s;
+	border-radius: 4px;
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	-o-border-radius: 4px;
+}
+.fa-btn:after {
+	content: '';
+	position: absolute;
+	z-index: -1;
+	-webkit-transition: all 0.3s;
+	-moz-transition: all 0.3s;
+	transition: all 0.3s;
+}
+.btn-1 {
+	border: 2px solid #ff5454;
+	color: #3b3b3b;
+}
