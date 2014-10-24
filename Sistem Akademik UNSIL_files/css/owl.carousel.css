@@ -4,10 +4,10 @@
 */
     #owl-demo .item{
        margin: 0.5em;
-		transition: 1s all;
-		-webkit-transition: 1s all;
-		-moz-transition: 1s all;
-		-o-transition: 1s all;
+		transition: 5s all;
+		-webkit-transition: 5s all;
+		-moz-transition: 5s all;
+		-o-transition: 5s all;
 		padding: 1em;
 		cursor:pointer;
 			 background: rgba(190,220,250,0.25);

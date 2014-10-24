@@ -313,12 +313,13 @@ body {
   -ms-filter: blur(5px);
 }
 .footer{
-	padding: 4%;
+	padding: 1%;
 }
 .copy p{
 	color: #3b3b3b;
 	font-size: 14px;
 	line-height: 1.8em;
+	
 }
 .copy p a{
 	color:#ff5454;
@@ -898,4 +899,5 @@ body {
 	.blog_list ul li:nth-child(3){
 		margin-left: 0;
 	}
+	
 }
