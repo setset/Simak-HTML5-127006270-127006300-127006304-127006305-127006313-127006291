@@ -327,3 +327,19 @@ body {
 	color: #3b3b3b;
 	text-decoration: none;
 }
+
+/* start about */
+.about{
+	padding: 4% 0;
+}
+.about h2{
+	margin: 0 0 20px;
+	text-transform: capitalize;
+	font-size: 3em;
+	color:#3b3b3b;
+	font-family: 'texgyreadventorregular';
+}
+.about a{
+	position: relative;
+	z-index: 1;
+}
