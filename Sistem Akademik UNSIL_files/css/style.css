@@ -35,3 +35,118 @@ body {
 	text-decoration: none;
 	font-family: 'texgyreadventorregular';
 }
+/* search */
+.h_search{
+	width: 14%;
+	position: relative;
+	margin-top: 2%;
+	
+}
+.h_search form{
+	width: 100%;
+	
+}
+
+.h_search form input[type="submit"]{
+	font-family: 'open_sansregular';
+		  background: rgba(190,220,250,0.25);
+  border-top: 1px solid rgba(250,253,255,0.2);
+  box-shadow: 0px 0px 5px rgba(0,0,0,0.2);
+  border-radius: 4px;
+	filter: blur(5px);
+  -webkit-filter: blur(5px);
+  -moz-filter: blur(5px);
+  -o-filter: blur(5px);
+  -ms-filter: blur(5px);
+	color: #000000;
+	text-transform: uppercase;
+	font-size: 13px;
+	padding: 1px 1px;
+	border: none;
+	cursor: pointer;
+	width: 50.333%;
+	position: fix;
+	line-height: 1.5em;
+	outline: none;
+	-webkit-transition: all 0.3s ease-in-out;
+	-moz-transition: all 0.3s ease-in-out;
+	-o-transition: all 0.3s ease-in-out;
+	transition: all 0.3s ease-in-out;
+	-webkit-appearance: none;
+}
+.h_search form input[type="submit"]:hover {
+	background: #FF5454;
+	
+}
+/* menu */
+.h_menu{
+	padding: 0;
+	
+}
+.navbar {
+	position: relative;
+	min-height: 60px;
+	margin-bottom: 0px;
+	border: none;
+	  background: rgba(190,220,250,0.25);
+  border-top: 1px solid rgba(250,253,255,0.2);
+  box-shadow: 0px 0px 5px rgba(0,0,0,0.2);
+  border-radius: 4px;
+	filter: blur(5px);
+  -webkit-filter: blur(5px);
+  -moz-filter: blur(5px);
+  -o-filter: blur(5px);
+  -ms-filter: blur(5px);
+}
+
+.navbar-default .navbar-collapse, .navbar-default .navbar-form {
+	
+	
+}
+.navbar-default .navbar-nav > .active > a,.navbar-default .navbar-nav>li>a:hover,.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover{
+	background: #FF5454;
+	color: #ffffff;
+	
+}
+.navbar-default .navbar-nav > li > a {
+	color: #000000;
+	-webkit-transition: all 0.3s ease-in-out;
+	-moz-transition: all 0.3s ease-in-out;
+	-o-transition: all 0.3s ease-in-out;
+	transition: all 0.3s ease-in-out;
+}
+.nav > li {
+	/*border-right: 1px solid rgba(250,253,255,0.2);*/
+}
+.nav > li > a {
+	font-size: 13px;
+	padding: 20px 30px;
+	text-transform: uppercase;
+}
+/* start soc_icons */
+.soc_icons {
+
+}
+.soc_icons ul{
+	margin-bottom: 0;
+}
+.soc_icons ul li{
+	display:inline-block;
+	border-left: 1px solid rgb(39, 37, 37);
+	margin-left: -3px;
+}
+.soc_icons ul li a{
+	color:#ffffff;
+	font-size: 24px;
+	display: block;
+	line-height: 60px;
+	width: 60px;
+	height: 60px;
+	-webkit-transition: all 0.3s ease-in-out;
+	-moz-transition: all 0.3s ease-in-out;
+	-o-transition: all 0.3s ease-in-out;
+	transition: all 0.3s ease-in-out;
+}
+.soc_icons ul li a:hover{
+	background: #FF5454;
+}
