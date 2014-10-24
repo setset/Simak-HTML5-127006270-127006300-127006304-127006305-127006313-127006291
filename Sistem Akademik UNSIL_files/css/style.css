@@ -1,0 +1,37 @@
+/* CSS brohh */
+@font-face {
+    font-family: 'texgyreadventorregular';
+    src: url('../fonts/texgyreadventor-regular-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+     font-family: 'open_sansregular';
+      src:url('../fonts/OpenSans-Regular-webfont.ttf') format('truetype');
+}
+body {
+	font-family: 'open_sansregular';
+	background: url('../images/background.jpg') no-repeat left;
+	font-size: 100%;
+}
+/* start header */
+.header_bg{
+	border-top:8px groove #3b3b3b;
+	background: url('../images/header_bg1.png') no-repeat left;
+	background-size: 100%;
+}
+.header_bg1 {
+	border-top:8px groove #3b3b3b;
+	background: url('../images/header_bg.png') no-repeat left;
+	background-size: 100%;
+}
+.header{
+	padding: 0% 0;
+}
+.logo h1 a{
+	font-size: 1em;
+	text-transform: uppercase;
+	color: #3B3B3B;
+	text-decoration: none;
+	font-family: 'texgyreadventorregular';
+}
