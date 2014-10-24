@@ -343,3 +343,99 @@ body {
 	position: relative;
 	z-index: 1;
 }
+
+/***** Media Quries *****/
+@media only screen and (max-width: 1440px) and (min-width: 240px)  {
+	.wrap{
+		width:95%;
+	}
+}
+@media only screen and (max-width: 1440px) {
+}
+@media only screen and (max-width: 1366px) {
+}
+@media only screen and (max-width: 1280px) {
+}
+@media only screen and (max-width: 1024px) {
+	.images_1_of_4 h4 a {
+		font-size: 1.2em;
+	}
+	.para {
+		font-size: 13px;
+	}
+	.content_right h4 {
+		font-size: 2em;
+	}
+}
+@media only screen and (max-width: 768px) {
+	.logo{
+		text-align:center;
+	}
+	.h_search {
+		width: 98%;
+		padding: 20px;
+	}
+	.h_menu {
+		position: relative;
+	}	
+	.soc_icons {
+		position: absolute;
+		top: 0px;
+		background: #3b3b3b;
+	}
+	.navbar-default .navbar-toggle {
+		border-color: #FFF;
+	}
+	.navbar {
+		min-height: 51px;
+	}
+	.navbar-default .navbar-collapse, .navbar-default .navbar-form {
+		border-color: #3b3b3b;
+	}
+	.navbar-default {
+		background-color: #3b3b3b;
+		border:none;
+	}
+	.navbar-nav {
+		margin: 0px 0px;
+	}
+	.nav > li > a {
+		padding: 20px 15px;
+	}
+	.soc_icons ul li a {
+		font-size: 20px;
+		line-height: 50px;
+		width: 51px;
+		height: 51px;
+	}
+	.slider_bg {
+		background-size: 100% 100%;
+	}
+	.main {
+		padding: 4% 0;
+	}
+	.images_1_of_4{
+		margin-bottom: 4%;
+	}
+	.main{
+		padding: 2%;
+	}
+	.technology {
+		padding: 4%;
+	}
+	.about {
+		padding: 4%;
+	}
+	.social_network_likes li {
+		width: 24.3333%;
+	}
+	.tag_nav {
+		margin: 4% 0;
+	}
+	.news_letter {
+		margin: 4% 0;
+	}
+	.technology h4 {
+		font-size: 20px;
+	}
+}
