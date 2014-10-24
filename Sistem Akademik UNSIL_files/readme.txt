@@ -1,1 +1,0 @@
-Hanya cocok untuk mozilla firefox
