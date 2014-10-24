@@ -439,3 +439,77 @@ body {
 		font-size: 20px;
 	}
 }
+
+@media only screen and (max-width: 640px){
+	.company_ad{
+		margin-left: 0;
+	}
+	.blog_left h4 a {
+		font-size: 1.2em;
+	}
+	.technology h4 {
+		font-size: 17px;
+	}
+}
+@media only screen and (max-width: 480px) {
+	.images_1_of_4 h4 {
+		margin: 20px 0 10px;
+	}
+	.technology h2 {
+		font-size: 2em;
+	}
+	.about h2 {
+		font-size: 2em;
+	}
+	.company_ad h2 {
+		font-size: 2em;
+	}
+	.contact-form h2 {
+		font-size: 2.5em;
+	}
+	.blog_left h4 a {
+		font-size: 1em;
+	}
+	.blog_list ul li {
+		margin-left: 5px;
+	}
+	.blog_list li a {
+		padding: 4px 4px;
+	}
+	.detail h2{
+		font-size: 2em;	
+	}
+}
+@media only screen and (max-width: 320px) {
+	.main {
+		padding: 8% 2%;
+	}
+	.soc_icons ul li a {
+		font-size: 20px;
+		width: 46px;
+	}
+	.images_1_of_4 h4 {
+		margin: 15px 0 10px;
+	}
+	.social_network_likes li a p {
+		font-size: 12px;
+	}
+	.images_1_of_4 span {
+		width: 88px;
+		height: 88px;
+	}
+	.images_1_of_4 span i {
+		font-size: 5em;
+		line-height: 1.8em;
+	}
+	.images_1_of_4 h4 a {
+		font-size: 1em;
+	}
+	.technology h4 {
+		font-size: 14px;
+		line-height: 1.5em;
+	}
+	.blog_list ul li:nth-child(3){
+		margin-left: 0;
+	}
+}
