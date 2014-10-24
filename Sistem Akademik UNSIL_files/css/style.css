@@ -285,3 +285,22 @@ body {
 	height: 400%;
 	opacity: 1;
 }
+
+/* start main_btm */
+.main_btm{
+	background: #FFFFFF;
+	border-top: 1px solid rgb(233, 233, 233);
+}
+.content_right h4{
+	color: #353535;
+	font-size: 2.5em;
+	font-family: 'texgyreadventorregular';
+	line-height: 1.5em;
+}
+.content_right h4 span{
+	color: #ff5454;
+}
+.content_right a{
+	position: relative;
+	z-index: 1;
+}
